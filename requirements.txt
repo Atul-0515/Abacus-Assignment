@@ -1,0 +1,27 @@
+# Core Data Processing
+pandas>=1.5.0
+numpy>=1.23.0
+pyspark>=3.3.0
+
+# Machine Learning
+scikit-learn>=1.2.0
+imbalanced-learn>=0.10.0
+
+# RAG & NLP
+sentence-transformers>=2.2.0
+faiss-cpu>=1.7.4
+
+# Data Generation
+faker>=18.0.0
+
+# Visualization
+matplotlib>=3.6.0
+seaborn>=0.12.0
+
+# Databricks (pre-installed in Databricks environment)
+# delta-spark>=2.3.0
+# databricks-sdk>=0.1.0
+
+# Optional: For local development/testing
+# jupyter>=1.0.0
+# notebook>=6.5.0
