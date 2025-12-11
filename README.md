@@ -58,19 +58,19 @@ cd healthcare-fraud-detection
 ```
 
 2. **Upload notebooks to Databricks**
-   - Import all `.py` files into your Databricks workspace
+   - Import all `.ipynb` files into your Databricks workspace
    - Run notebooks in sequence (01 → 02 → 03)
 
 3. **Run the pipeline**
 ```bash
 # Step 1: Generate synthetic fraud data
-# Run: 01_Generate_Fraud_Data.py
+# Run: 01_Generate_Fraud_Data.ipynb
 
 # Step 2: ETL and ML model training
-# Run: 02_ETL_Fraud_Detection.py
+# Run: 02_ETL_Fraud_Detection.ipynb
 
 # Step 3: RAG query system & analytics
-# Run: 03_RAG_Query_System.py
+# Run: 03_RAG_Query_System.ipynb
 ```
 
 ## 📊 Fraud Patterns Detected
@@ -109,12 +109,12 @@ The system supports natural language queries:
 ```
 healthcare-fraud-detection/
 │
-├── 01_Generate_Fraud_Data.py        # Synthetic data generation
-├── 02_ETL_Fraud_Detection.py        # ETL pipeline + ML models
-├── 03_RAG_Query_System.py           # RAG query system & analytics
+├── 01_Generate_Fraud_Data.ipynb      # Synthetic data generation
+├── 02_ETL_Fraud_Detection.ipynb      # ETL pipeline + ML models
+├── 03_RAG_Query_System.ipynb         # RAG query system & analytics
 ├── Healthcare_Fraud_Detection.pptx   # Project presentation
-├── README.md                         # Project documentation
-└── .gitignore                        # Git ignore file
+├── README.md                          # Project documentation
+└── .gitignore                         # Git ignore file
 ```
 
 ## 🛠️ Technologies Used
