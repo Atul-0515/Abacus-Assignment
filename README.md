@@ -4,14 +4,14 @@ A complete end-to-end machine learning solution for detecting healthcare fraud u
 
 ## 📋 Overview
 
-This project implements an intelligent fraud detection system that processes healthcare claims data through a medallion architecture (Bronze → Silver → Gold) and provides a RAG-powered chatbot interface for natural language queries.
+This project implements an intelligent fraud detection system that processes healthcare claims data through a medallion architecture (Bronze → Silver → Gold) and provides a RAG-powered query system for natural language fraud analysis.
 
 ### Key Features
 
 - **Synthetic Data Generation**: Creates realistic healthcare claims with injected fraud patterns
 - **Multi-Layer Architecture**: Bronze, Silver, and Gold Delta Lake tables
 - **ML Fraud Detection**: Random Forest + Isolation Forest models
-- **RAG Chatbot**: Natural language interface using sentence transformers and FAISS
+- **RAG Query System**: Natural language search using sentence transformers and FAISS
 - **Visual Analytics**: Comprehensive fraud detection dashboard
 
 ## 🏗️ Architecture
@@ -53,7 +53,7 @@ This project implements an intelligent fraud detection system that processes hea
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/healthcare-fraud-detection.git
+git clone https://github.com/Atul-0515/healthcare-fraud-detection.git
 cd healthcare-fraud-detection
 ```
 
@@ -69,8 +69,8 @@ cd healthcare-fraud-detection
 # Step 2: ETL and ML model training
 # Run: 02_ETL_Fraud_Detection.py
 
-# Step 3: RAG chatbot interface
-# Run: 03_RAG_Chatbot_Interface.py
+# Step 3: RAG query system & analytics
+# Run: 03_RAG_Query_System.py
 ```
 
 ## 📊 Fraud Patterns Detected
@@ -85,7 +85,7 @@ The system identifies five types of healthcare fraud:
 | **Upcoding** | Billing for more expensive procedures | Price analysis |
 | **Unbundling** | Separating bundled procedures | Aggregation analysis |
 
-## 🔍 RAG Chatbot Examples
+## 🔍 RAG Query Examples
 
 The system supports natural language queries:
 
@@ -111,7 +111,7 @@ healthcare-fraud-detection/
 │
 ├── 01_Generate_Fraud_Data.py        # Synthetic data generation
 ├── 02_ETL_Fraud_Detection.py        # ETL pipeline + ML models
-├── 03_RAG_Chatbot_Interface.py      # RAG chatbot interface
+├── 03_RAG_Query_System.py           # RAG query system & analytics
 ├── Healthcare_Fraud_Detection.pptx   # Project presentation
 ├── README.md                         # Project documentation
 └── .gitignore                        # Git ignore file
@@ -147,8 +147,8 @@ healthcare-fraud-detection/
 
 ## 👤 Author
 
-**Your Name**
-- GitHub: [@atulkumar](https://github.com/Atul-0515/)
+**Atul Kumar**
+- GitHub: [@Atul-0515](https://github.com/Atul-0515/)
 
 ## 🙏 Acknowledgments
 
